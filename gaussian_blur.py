@@ -3,7 +3,7 @@ import cv2
 image = cv2.imread("Filtering & Blurring/free-nature-images.jpg")
 
 blurred = cv2.GaussianBlur(image, (7,7), 3)
-
+ //21,21 is a super blur 
 cv2.imshow("Original Image", image)
 cv2.imshow("Blurred Image", blurred)
 cv2.waitKey(0)
